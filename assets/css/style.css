@@ -1,21 +1,17 @@
-@media (min-width: 768px) {
-    .md\:block {
-        display: block;
+@media screen and (max-width: 768px) { 
+    img{
+        height: 100%;
     }
-}
-nav {
-    display: block;
-    unicode-bidi: isolate;  
+    
 }
 
-.pointer-events-auto {
-    pointer-events: auto;
-}
+body{
+    margin: 0 auto;
+}   
 
-*, :before, :after {
-    box-sizing: border-box;
-    border-width: 0;
-    border-style: solid;
-    border-color: #3763b9;
+img{
+    width: 100%;
 }
+    
 
+   
