@@ -1,8 +1,5 @@
 *  {
-    /* Inclut le padding et la bordure dans la largeur et la hauteur de l'élément.
-      Cela simplifie le calcul des tailles et évite les débordements inattendus. */
     box-sizing: border-box;
-    /* Aligne les éléments sur la ligne de base du texte environnant, pour un rendu plus cohérent. */
     vertical-align: baseline;
     margin: 0 auto; 
 }
@@ -28,9 +25,10 @@
 
 body {
     margin: 0 auto;
-    background-image: url(/assets/img/background-img-3.png);
+    background-image: url(/assets/img/background-img-3.png); 
     background-size: 100%;
     font-family: "Exo", sans-serif;
+    background-color: rgba(0, 0, 0, 0.445);
 }
 
 .imgLogo{
@@ -38,13 +36,8 @@ body {
     justify-content: left;
 }
 
-h1, h2, h3 {
-    color: #FF6B35;
+.marginTop {
+    margin-top: 150px;
 }
-
-            
-
-
-
     
 
