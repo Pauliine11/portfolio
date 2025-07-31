@@ -24,14 +24,18 @@
 }
 
 body {
-    margin: 0 auto;
+    margin: 0;
     background-image: url(/assets/img/background-img-3.png); 
     background-size: 100%;
     font-family: "Exo", sans-serif;
-    background-color: rgba(0, 0, 0, 0.445);
+    color: #E91E63;
 }
 
-.imgLogo{
+h2 {
+    text-align: center;
+}
+
+.imgLogo {
     display: flex;
     justify-content: left;
 }
@@ -39,5 +43,16 @@ body {
 .marginTop {
     margin-top: 150px;
 }
-    
+
+.bg {
+    background-color: #0F1419;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.bg2 {
+    background-color: #4A148C;
+    border-radius: 15px;
+    padding: 10px;
+}
 
