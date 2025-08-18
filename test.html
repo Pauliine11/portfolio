@@ -3,46 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/test.css">    
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <nav class="navbar row">
-            <a href="#">
-                <img class="imgLogo" src="assets/img/Logo_NylorionFAV.png" alt="image de mon logo" width="50" height="50">
-            </a>
-            <ul class="navbar">
-                <li><a href="#story">Our story</a></li>
-                <li><a href="#fare">Fare</a></li>
-                <li><a href="#soap">Drink</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>        
-            <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search"/>
-            <button class="btn btn-outline-info" type="submit">Rechercher</button>
-            </form>
+        <nav class="navbar">
+            <a href="#home" class="logo">Nylorion</a>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#srojects">Projects</a>
+                </li>
+                <li>
+                    <a href="contact">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header>
+    <!-- Main -->
     <main>
-        <h1>hello</h1>
-        <section class="row marginTop">
-            <div class="col_12">
-                <div class="col_6 padding">
-                    <h2>Pauline Vires</h2>
-                    <p>We started out with a quest for fresh game prepared in a delicate and natural way. It all began when our founder Emma Wilson came up with the idea that a great place to eat shouldn't be hard to find or hard to enjoy. Our deli fish is freshly caught under special laws and we work directly with animal protection and local farmers. We hope you enjoy the food from our kitchen to your plate.<p>
-                    <p class="texteRose">est.2004</p>
+         <!-- Hero section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Full-Stack developper</h1>
+                <p>Bulding digital exepriences that merge creativity with technology</p>
+                <p class="highLight">Specializing in modern web development</p>
+                <a href="#contact" class="cta-button">Let's Connect</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/monPortrait.JPG" alt="profile" class="profile-img">
+            </div>
+        </section>
+         <!-- Skill section -->
+        <section id="skills" class="skills">
+            <h2>Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
                 </div>
-                <div class="col_6 padding">
-                    <h2>Mon CV</h2>
-                    <p>We started out with a quest for fresh game prepared in a delicate and natural way. It all began when our founder Emma Wilson came up with the idea that a great place to eat shouldn't be hard to find or hard to enjoy. Our deli fish is freshly caught under special laws and we work directly with animal protection and local farmers. We hope you enjoy the food from our kitchen to your plate. </p>
-                    <p class="texteRose">All natural</p>
+                <div class="skill-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>SQl, Node.js, Python</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>UX/UI Design</h3>
+                    <p>Figma, Adobe XD</p>
                 </div>
             </div>
         </section>
-        <h2>Projets Recents</h2>
-        <h2>Compétences</h2>
     </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Nylorion. All rights reserved</p>
+        <div class="social-links">
+            <a href="">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>                
 </html> 
         
