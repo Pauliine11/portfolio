@@ -13,6 +13,8 @@
     --text: #ffffff;
 }
 body {
+    background-image: url(/assets/img/bgGalaxie.png);
+    background-position: 45% 90%;
     background-color: var(--dark-bg);
     color: var(--text);
     line-height: 1.6;
@@ -42,6 +44,11 @@ body {
     text-decoration: none;
     position: relative;
     padding-left: 2.5rem;
+}
+
+.imgLogo {
+    height: 80px;
+    width: 80px;
 }
 
 .nav-links {
@@ -115,7 +122,7 @@ body {
     font-size: 4rem;
     margin-bottom: 1.5rem;
     background: linear-gradient(45deg, var(--accent) 30%, #ffffff 70%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
