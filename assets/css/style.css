@@ -345,6 +345,7 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     box-shadow: 0 0 80px var(--color);
 }
 
+
 .about .about-wrapper {
     display: flex;
     align-items: center;
@@ -482,6 +483,10 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     line-height: 1.5em;
 }
 
+.services .services-box .box p i {
+    font-size: 40px; 
+}
+
 .services .services-box .box .services-btn {
     width: 300px;
     margin-top: 10px;
@@ -606,6 +611,20 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     color: var(--color);
 }
 
+ /* modif contact provisoir */
+.contact .img-contact {
+    flex: 1;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid var(--color);
+    box-shadow: 0 0 40px var(--color);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
 .contact form {
     max-width: 40em;
     margin: 1em auto;
@@ -613,7 +632,7 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     margin-bottom: 3em;
 }
 
-.contact form .input-box {
+/*.contact form .input-box {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -629,7 +648,7 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     outline: none;
     border-radius: 8px;
     margin: 8px 0;
-}
+}*/
 
 .contact form .input-box input::-moz-placeholder {
     color: var(--place-clr);
@@ -680,6 +699,8 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     transform: translateY(-7px);
     box-shadow: 0 0 0.7rem var(--color);
 }
+
+
 
 .footer {
     padding: 1.5em 9%;
@@ -828,8 +849,14 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     .services .services-box .box {
         width: 340px;
     }
+    
     .portfolio .portfolio-wrapper .portfolio-box {
         width: 340px;
+    }
+
+    .contact .img-contact {
+        width: 340px;
+        height: 340px;
     }
 }
 
@@ -837,18 +864,23 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     header nav .logo a {
         font-size: 28px;
     }
+
     .home .home-info .left h3 {
         font-size: 1.8em;
     }
+
     .home .home-info .left h1 {
         font-size: 2.5em;
     }
+
     .home .home-info .left h4 {
         font-size: 1.4em;
     }
+
     .home .home-info .left p {
         font-size: 14px;
     }
+
     .home .home-info .right .profile img {
         width: 280px;
         height: 280px;
@@ -863,25 +895,32 @@ header nav .list-darkmode-menu .hamburger.active .bar {
     .services h2 {
         font-size: 2.5em;
     }
+
     .portfolio h2 {
         font-size: 2.5em;
     }
+
     .contact h2 {
         font-size: 2.5em;
     }
+
     .contact form .input-box input {
         width: 100%;
     }
+
     .footer {
         padding: 1.2em 5%;
     }
+
     .footer .footer-wrapper {
         flex-direction: column-reverse;
         text-align: center;
     }
+
     .footer .footer-wrapper .footer-info {
         line-height: 1.5em;
     }
+
     .footer .footer-wrapper .iconTop {
         margin-bottom: 1.2em;
     }
